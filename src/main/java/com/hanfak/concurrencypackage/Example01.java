@@ -10,7 +10,7 @@ public class Example01 {
         task.run();
 
         Thread thread = new Thread(task);
-        // We do not if the thread will invoke the runnable before or after the "Done"
+        // We do not know if the thread will invoke the runnable before or after the "Done"
         thread.start();
 
         System.out.println("Done!");

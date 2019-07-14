@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.*;
-
+//https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/ExecutorService.html#invokeAll(java.util.Collection)
 public class Example08 {
     public static void main(String[] args) {
         /*The invokeAll() method invokes all of the Callable objects you pass to it

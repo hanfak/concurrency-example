@@ -6,7 +6,7 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-
+//https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/ExecutorService.html#invokeAny(java.util.Collection)
 public class Example07 {
     public static void main(String[] args) {
         /*
