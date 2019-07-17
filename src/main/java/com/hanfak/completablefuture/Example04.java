@@ -8,7 +8,7 @@ public class Example04 {
     // implement a async process
     // Uses common forkjoinpool if no executor is specified
     CompletableFuture<Void> cf = CompletableFuture.runAsync(() -> {
-      System.out.println("Is thread a daemon thread" + Thread.currentThread().isDaemon());
+      System.out.println("Is thread a daemon thread " + Thread.currentThread().isDaemon());
       randomSleep();
     });
     System.out.println(cf.isDone());

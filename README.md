@@ -1,5 +1,6 @@
 TODO:
 
 - Executor service
-- Futures
+- Futures, completable futures
 - Promises and call backs
+- Locks
